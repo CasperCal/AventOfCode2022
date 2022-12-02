@@ -3,7 +3,6 @@ class Scratch {
 
         String[] splitInut = input.split("\n\n");
         int[] result = new int[splitInut.length];
-        int max = 0;
 
         for (int i = 0; i < splitInut.length; i++) {
             String[] tempSplit = splitInut[i].split("\n");
